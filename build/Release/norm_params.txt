@@ -1,0 +1,11 @@
+x_norm=	1.680464e-01
+t_norm=	5.605424e-10
+phi_norm=	5.109991e+05
+wp=	1.783987e+09
+n_norm=	1.190148e+09
+num_norm=	2.000000e+08
+ef_norm=	3.040822e+06
+bf_norm=	1.014309e-02
+ene_norm=	8.187111e-14
+ene_norm_ev=	5.109991e+05
+j_norm=	5.716525e-02

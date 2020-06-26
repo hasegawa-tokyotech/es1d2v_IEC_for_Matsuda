@@ -1,0 +1,8 @@
+set terminal gif animate delay 5 optimize size 640,480
+set output 'ps.gif'
+set xrange [ 0 : 1.19 ]
+set yrange [ -0.02 : 0.02 ]
+do for [i=0:84] {
+	plot sprintf("pa0_%03d.txt",i) u 4:5 notitle w points pt 7 ps 0.2, sprintf("pa1_%03d.txt",i) u 4:5 notitle w points pt 7 ps 0.2, 
+}
+unset output
